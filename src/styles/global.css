@@ -1,0 +1,137 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+.thin {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+}
+.lighter {
+  font-weight: 300;
+}
+.normal {
+  font-weight: 400;
+}
+.bold {
+  font-weight: 700;
+}
+
+  /* --------- SELECT COMPONENT ----------- */
+
+  /* Khi hover vào Select */
+  .custom-select:hover .ant-select-selector {
+    background-color: #d94f22 !important; 
+  }
+  
+  /* Option khi hover */
+  .ant-select-item-option-active {
+    background-color: #F05D29 !important;
+    color: white !important;
+  }
+  
+  /* Option khi được chọn */
+  .ant-select-item-option-selected {
+    background-color: #F05D29 !important;
+    color: white !important;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+  }
+
+
+  /* .ant-select-selector {
+    background-color: #F05D29 !important; 
+    color: white !important; 
+    border-radius: 6px; 
+    border: none !important;
+  }
+
+  .ant-select-selection-placeholder {
+    color: white !important;
+    opacity: 1;
+  } */
+  
+  .custom-select .ant-select-selection-placeholder {
+    color: white !important;
+  }
+
+  /* ------------ INPUT COMPONENT ------------ */
+  /* .ant-input::placeholder {
+    color: white !important;
+    opacity: 1; /* tránh bị mờ */
+  /* } */  
+
+  /* ------------- SLIDER COMPONENT ----------- */
+  .ant-slider-mark-text {
+    color: #000 !important; 
+    font-weight: 500;
+  }
+
+  .ant-slider-mark-text {
+    white-space: nowrap;
+    font-size: 14px;
+  }
+
+  /* Đường line đã trượt (track) */
+.ant-slider-track {
+    background-color: #F04F39 !important;
+  }
+  
+  /* Đường line chưa trượt (rail) */
+  .ant-slider-rail {
+    background-color: #d9d9d9 !important; /* màu xám nhạt */
+  }
+  
+  /* Nút tròn (handle) */
+  .ant-slider-handle::after {
+    box-shadow: 0 0 0 2px #F04F39 !important; /* viền xanh */
+  }
+  .ant-slider-handle:hover::after,
+  .ant-slider-handle:focus::after {
+    box-shadow: 0 0 0 4px #F04F39 !important; /* hover sáng */
+  }
+  
+  /* Các mốc (dot) mặc định */
+  .ant-slider-dot {
+    border: 2px solid #F04F39 !important;
+    background-color: white !important;
+  }
+  
+  /* Các mốc đã đi qua (active) */
+  .ant-slider-dot-active {
+    background-color: #F04F39 !important;
+  }
+  /* -------------- CHECKBOX ------------------ *
+  
+  /* Viền checkbox mặc định */
+.ant-checkbox .ant-checkbox-inner {
+    border: 1px solid #F05D29 !important; /* viền màu cam */
+  }
+  
+  /* Hover vào checkbox */
+  .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+  .ant-checkbox:hover .ant-checkbox-inner {
+    border-color: #d94d1f !important;
+  }
+  
+  /* Khi được check */
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #F05D29 !important; /* nền cam */
+    border-color: #F05D29 !important;
+  }
+  
+  /* Dấu tick màu trắng */
+  .ant-checkbox-checked .ant-checkbox-inner::after {
+    border-color: white !important;
+  }
+  .slick-slider {
+    overflow: hidden;  /* Ẩn item tràn ra ngoài */
+  }
+  
+  .slick-track {
+    display: flex !important; /* fix width tính toán sai */
+  }
+  
+
+
