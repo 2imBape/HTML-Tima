@@ -1,11 +1,12 @@
-import SliderWeb from "../Components/Website/Content/Slider";
-import LoansPackage from "../Components/Website/Content/LoansPackage";
-import InformationLoans from "../Components/Website/Content/InformationLoans";
-import TimaModel from "../Components/Website/Content/TimaModel";
-import Support from "../Components/Website/Content/Support";
-import AboutTima from "../Components/Website/Content/AboutTima";
-import FundAndPartner from "../Components/Website/Content/FundAndPartner";
-import LoansConsulation from "../Components/Website/Content/LoansConsultation";
+import AboutTima from "../../../Components/Website/Content/Home/AboutTima";
+import FundAndPartner from "../../../Components/Website/Content/Home/FundAndPartner";
+import InformationLoans from "../../../Components/Website/Content/Home/InformationLoans";
+import LoansConsulation from "../../../Components/Website/Content/Home/LoansConsultation";
+import LoansPackage from "../../../Components/Website/Content/Home/LoansPackage";
+import SliderWeb from "../../../Components/Website/Content/Home/Slider";
+import Support from "../../../Components/Website/Content/Home/Support";
+import TimaModel from "../../../Components/Website/Content/Home/TimaModel";
+
 
 const Home = () => {
   return (

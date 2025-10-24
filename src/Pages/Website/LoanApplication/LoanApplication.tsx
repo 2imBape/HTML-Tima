@@ -57,7 +57,7 @@ const LoanInformation: React.FC = () => {
             >
               THÔNG TIN ĐĂNG KÝ
             </Title>
-            <Form layout="vertical" onFinish={onFinish}>
+            <Form>
               <Form.Item label={<b>Số tiền muốn vay?*</b>}>
                 <div
                   style={{

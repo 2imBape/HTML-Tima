@@ -27,7 +27,7 @@ const NavHeader = () => {
         <hr className="border-r-[1px] border-[#d7d7d7] !h-[38px]" />
         <li>
           <Link
-            to=""
+            to="Vay-tien-online"
             onClick={() => toggle("can1khoanvay")}
             className={`${
               activeNav === "can1khoanvay"

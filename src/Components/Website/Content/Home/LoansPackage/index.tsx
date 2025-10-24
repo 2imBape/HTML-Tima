@@ -45,15 +45,22 @@ const LoansPackage = () => {
   });
 
   const settings = {
+    vertical: false,            // 👈 trượt dọc
+    verticalSwiping: false,     // 👈 vuốt dọc được
+    draggable: true,           // 👈 kéo chuột được
+    swipeToSlide: true,        // 👈 kéo đến đâu dừng ở đó (không cố định)
+    infinite: true,            // lặp vô hạn
+    autoplaySpeed: 2500,       // tốc độ auto
+    pauseOnHover: false,       // dừng khi hover
+    speed: 600,                // tốc độ chuyển
+    slidesToScroll: 1,         // chỉ cần 1, nhưng không cố định nhờ swipeToSlide
+    cssEase: "ease-in-out",    // hiệu ứng mượt
+    touchThreshold: 8,         // độ nhạy vuốt
+    arrows: false, 
     dots: false,
-    infinite: true,
-    speed: 200,
     slidesToShow: slidesToShow,
-    slidesToScroll: 1, // chỉ trượt 1 item mỗi lần
     autoplay: false,
     swipe: true,
-    arrows: false,
-    draggable: true,
     responsive: [
       { breakpoint: 1200, settings: { slidesToShow: 6 } },
       { breakpoint: 900, settings: { slidesToShow: 4 } },
